@@ -1,0 +1,52 @@
+/******************************************************************
+
+Stylesheet: ベーススタイル
+
+******************************************************************/
+
+body{
+  font-family:'Roboto','Noto Sans JP', sans-serif;//ローマ字→日本語→sans-serifの順
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+/******************************************************************
+SP UtilityClass START
+******************************************************************/
+// Font Size
+.font-sm{
+  font-size: 14px;
+}
+.font-md{
+  font-size: 17px;
+}
+.font-lr{
+  font-size: 17px;
+}
+.font-lg{
+  font-size: 25px;
+}
+
+// margin & padding
+.mb-sm{
+  margin-bottom: 16px !important;
+}
+.mb-lg{
+  margin-bottom: 80px !important;
+}
+.pb-sm{
+  padding-bottom: 16px !important;
+}
+.pb-lg{
+  padding-bottom: 80px !important;
+}
+
+//inner
+.inner{
+  width: 90%;
+  margin: 0 auto;
+  max-width: $innerMaxWidth;
+}
+/******************************************************************/
